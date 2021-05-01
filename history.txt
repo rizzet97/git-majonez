@@ -1,0 +1,58 @@
+  751  mkdir git-majonez
+  752  cd git-majonez/
+  753  git init
+  754  touch main.cpp
+  755  git status
+  756  git add main.cpp 
+  757  git commit -m "Initial commit"
+  758  git status
+  759  git log
+  760  git status
+  761  git add .
+  762  git commit -m "Farewell changed"
+  763  git remote add origin https://github.com/rizzet97/git-majonez.git
+  764  git push -u origin master
+  765  git pull
+  766  git branch cs
+  767  git checkout cs
+  768  git log
+  769  gitk
+  770  man git reset
+  771  git log
+  772  git reset --soft HEAD
+  773  git log
+  774  git reset --hard HEAD
+  775  git log
+  776  gitk &
+  777  git clone https://github.com/dracula/gitk.git
+  778  gitk &
+  779  mkdir -p ~/config/git
+  780  mkdir -p ~/.config/git
+  781  cp gitk/gitk ~/.config/git/
+  782  gitk &
+  783  git reflog
+  784  git status
+  785  git hist
+  786  git checkout cs
+  787  git reset --hard 6e98eea
+  788  git reflog
+  789  git hist
+  790  git log
+  791  git status
+  792  git add main.cpp 
+  793  git commit -m "Greetings"
+  794  git log
+  795  git push origin cs
+  796  git checkout master
+  797  git merge cs
+  798  git status
+  799  git commit
+  800  git add main.cpp
+  801  git commit
+  802  git status
+  803  git push origin cs
+  804  git status
+  805  git push
+  806  history
+  807  touch history.txt
+  809  history | tail -n58 > history.txt
